@@ -250,15 +250,16 @@ article {
 }
 
 .blogs-con {
-	display: grid;
+	display: flex;
 	padding: 30px;
-	place-items: center;
-	grid-template-rows: 1fr;
-	grid-template-columns: 1fr 1fr 1fr;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .blog2 {
 	padding: 30px;
+	width: 400px;
 	border: solid 1px lightgray;
 }
 
@@ -280,14 +281,12 @@ article {
 	font-size: 20px;
 	color: #2f2f2f;
 	margin-top: 40px;
-	text-decoration: none;
 }
 
 .blog-des-para {
 	font-size: 15px;
 	margin-top: 10px;
 	color: #606060;
-	text-decoration: none;
 }
 
 .blog-main-head {

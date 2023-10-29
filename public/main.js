@@ -18,6 +18,7 @@ const blogListArray = [
 		blogBy: "Rudraksh Aneja",
 		blogDescription:
 			"bsfhsh cjsdvw vnowsiv ljeowvnwv kviwhvwe jsvbiu jbv kvjbwv eviuh svbe dhjs vjsbvs  vsvdksjvsd vsdjvksbvs",
+		blogLink: "blogs/china-dispute.html",
 	},
 ];
 
@@ -29,6 +30,7 @@ function elementFromHtml(html) {
 
 function createAndAppendBlog(item) {
 	let myHtml = elementFromHtml(`
+  <a href="${item.blogLink}">
     <div class="blog2">
         <div class="blog-img-con">
           <div class="blog-img" style="background-image: url('${item.blogImageLink}')"></div>
@@ -38,6 +40,7 @@ function createAndAppendBlog(item) {
           <p class="blog-des-para">${item.blogDescription}</p>
         </div>
     </div>
+  </a>  
   `);
 
 	blogsCon.appendChild(myHtml);
