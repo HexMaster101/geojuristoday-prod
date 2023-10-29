@@ -379,6 +379,20 @@ article {
 	.goals-grid div {
 		padding: 16px 30px;
 	}
+
+	#national-emblem-section {
+		background-image: url("images/31842683_78590192\ copy.png");
+	}
+
+	#national-emblem-section div {
+		justify-content: center;
+		padding: 0 0;
+	}
+
+	.national-emblem-text {
+		margin-right: 0;
+		font-size: 22px;
+	}
 }
 
 @media (max-width: 800px) {
