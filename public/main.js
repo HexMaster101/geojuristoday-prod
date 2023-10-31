@@ -13,12 +13,20 @@ const blogsCon = document.getElementById("blogsCon");
 
 const blogListArray = [
 	{
-		blogImageLink: "/images/SOUTH CHINA SEA DISPUTE (1).png",
+		blogImageLink: "images/SOUTH CHINA SEA DISPUTE (1).png",
 		blogHeading: "South China Sea Dispute",
 		blogBy: "Rudraksh Aneja",
 		blogDescription:
-			"bsfhsh cjsdvw vnowsiv ljeowvnwv kviwhvwe jsvbiu jbv kvjbwv eviuh svbe dhjs vjsbvs  vsvdksjvsd vsdjvksbvs",
+			"This research paper examines the South China Sea dispute, a volatile territorial conflict involving multiple nations, with a particular focus on the role of the United Nations Convention on the Law of the Sea (UNCLOS) as a framework for addressing the issues. It analyzes historical context, legal dimensions, political dynamics.",
 		blogLink: "blogs/china-dispute.html",
+	},
+	{
+		blogImageLink: "images/Untitled design (3).png",
+		blogHeading: "Israel-Palestine Conflict.",
+		blogBy: "Rudraksh Aneja",
+		blogDescription:
+			"This research paper delves into the complex Israel-Palestine conflict, exploring the question of international law as a means to address and potentially resolve the longstanding dispute. The paper offers a comprehensive analysis of the historical, and United Nations resolutions in shaping the ongoing discourse and potential solutions in the region.",
+		blogLink: "blogs/israel-palestine-conflict.html",
 	},
 ];
 
@@ -30,7 +38,7 @@ function elementFromHtml(html) {
 
 function createAndAppendBlog(item) {
 	let myHtml = elementFromHtml(`
-  <a href="${item.blogLink}">
+  <a href="${item.blogLink}" style="margin: 20px;">
     <div class="blog2">
         <div class="blog-img-con">
           <div class="blog-img" style="background-image: url('${item.blogImageLink}')"></div>
