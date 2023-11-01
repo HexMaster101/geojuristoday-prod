@@ -127,13 +127,20 @@ article {
 	color: #ffffff;
 }
 
+.whiteColor {
+	background-color: #ffffff;
+}
+
+.bakchodColor {
+	background-color: #c4c4c4;
+}
+
 .navbar-bottom {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	padding: 5px;
-	background-color: #c4c4c4;
 }
 
 .social-media-handles-con {
