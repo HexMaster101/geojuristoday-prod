@@ -7,6 +7,8 @@ navBtn.addEventListener("click", () => {
 	navEl.classList.toggle("show");
 });
 
+const joinUsBtn = document.getElementById("joinUsButton");
+
 // FOR BLOGS
 
 const blogsCon = document.getElementById("blogsCon");

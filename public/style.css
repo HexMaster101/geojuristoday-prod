@@ -43,7 +43,6 @@ article {
 
 .navbar-upper {
 	background-color: #404040;
-	border-bottom: solid 1px;
 	padding: 5px 20px;
 	display: flex;
 	flex-direction: row;
@@ -133,15 +132,15 @@ article {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #c5aa6a;
-	padding: 3px;
+	padding: 5px;
+	background-color: #c4c4c4;
 }
 
 .social-media-handles-con {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-right: 20px;
+	margin-right: 5px;
 }
 
 .icons-con {
@@ -156,19 +155,44 @@ article {
 	margin-right: 4px;
 }
 
+.icons-con:hover {
+	background-color: #2f2f2f;
+}
+
 .icons {
 	color: #ffffff;
 	font-size: 20px;
 }
 
 .contact-us {
-	margin-left: 32px;
+	margin-left: 15px;
+}
+
+.join-us-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 34px;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 0px 20px;
+	margin-right: 20px;
+	cursor: pointer;
+	background-color: #404040;
+	border-radius: 200px;
+	color: #ffffff;
+}
+
+.join-us-button:hover {
+	background-color: #2f2f2f;
+	color: #ffffff;
 }
 
 .email-link {
-	color: black;
+	color: #2f2f2f;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 19px;
 	text-decoration: none;
 }
 
@@ -374,6 +398,11 @@ article {
 		font-size: 16px;
 	}
 
+	.join-us-button {
+		height: 30px;
+		font-size: 18px;
+	}
+
 	.icons-con {
 		height: 30px;
 		width: 30px;
@@ -454,6 +483,11 @@ article {
 
 	.email-link {
 		font-size: 14px;
+	}
+
+	.join-us-button {
+		height: 26px;
+		font-size: 16px;
 	}
 
 	.icons-con {
