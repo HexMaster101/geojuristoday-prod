@@ -488,6 +488,7 @@ article {
 	.join-us-button {
 		height: 26px;
 		font-size: 16px;
+		margin-right: 16px;
 	}
 
 	.icons-con {
@@ -540,6 +541,14 @@ article {
 }
 
 @media (max-width: 640px) {
+	.navbar-upper {
+		padding: 4px 16px;
+	}
+
+	.contact-us {
+		margin-left: 9px;
+	}
+
 	.goals-grid {
 		display: grid;
 		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -570,5 +579,49 @@ article {
 
 	.national-emblem-text {
 		font-size: 16px;
+	}
+}
+
+@media (max-width: 430px) {
+	.navbar-upper {
+		padding: 4px 10px;
+	}
+
+	.logo-label {
+		font-size: 16px;
+	}
+
+	#geojuristoday-logo {
+		height: 40px;
+		width: 40px;
+	}
+
+	.contact-us {
+		margin-left: 7px;
+	}
+
+	.email-link {
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	.social-media-handles-con {
+		margin-right: 4px;
+	}
+
+	.join-us-button {
+		height: 22px;
+		font-size: 14px;
+		margin-right: 10px;
+	}
+
+	.icons-con {
+		height: 22px;
+		width: 22px;
+		margin-right: 2px;
+	}
+
+	.icons {
+		font-size: 14px;
 	}
 }
